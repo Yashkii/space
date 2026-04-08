@@ -6,7 +6,6 @@ const slideTimeout = 2400
 let sliderTimerId = setTimeout(nextSlide, slideTimeout)
 
 const images = slider.querySelectorAll('img')
-console.log(slider, images)
 
 function nextSlide() {
     clearInterval(sliderTimerId)
